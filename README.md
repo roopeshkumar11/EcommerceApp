@@ -85,22 +85,22 @@ This is a **React Native E-Commerce App** that allows users to browse, buy cloth
 
   <div>
     <h4>Home Screen</h4>
-    <img src="./assets/home.png" style="width: 50%; max-width: 200px;" />
+    <img src="./assets/home.png" style="width: 30%; max-width: 200px;" />
   </div>
 
   <div>
     <h4>Details Screen</h4>
-    <img src="./assets/details.png" style="width: 50%; max-width: 200px;" />
+    <img src="./assets/details.png" style="width: 30%; max-width: 200px;" />
   </div>
 
   <div>
     <h4>Cart Screen</h4>
-    <img src="./assets/cart.png" style="width: 50%; max-width: 200px;" />
+    <img src="./assets/cart.png" style="width: 30%; max-width: 200px;" />
   </div>
 
   <div>
     <h4>Buy Screen</h4>
-    <img src="./assets/buy.png" style="width: 50%; max-width: 200px;" />
+    <img src="./assets/buy.png" style="width: 30%; max-width: 200px;" />
   </div>
 
 </div>
