@@ -9,6 +9,7 @@ import Details from "./src/screens/Details";
 import Settings from "./src/screens/Settings";
 import Buy from "./src/screens/Buy";
 import Cart from "./src/screens/Cart";
+import {CartProvider} from "./src/contextaddcart/CartContext"
 
 const Drawer = createDrawerNavigator();
 const Stack = createNativeStackNavigator();
@@ -26,6 +27,7 @@ function HomeStack() {
 
 export default function App() {
   return (
+     <CartProvider>
     <NavigationContainer>
       <Drawer.Navigator
         initialRouteName="Home"
@@ -45,5 +47,6 @@ export default function App() {
         <Drawer.Screen name="Cart" component={Cart} />
       </Drawer.Navigator>
     </NavigationContainer>
+    </CartProvider>
   );
 }

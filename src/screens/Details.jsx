@@ -1,10 +1,17 @@
-import React from "react";
+import React, { useContext } from "react";
 import { View, Text, StyleSheet, Image, Button, TouchableOpacity } from "react-native";
+import { CartContext } from "../contextaddcart/CartContext";
 
 function Details({ route, navigation }) {
 
   const { product } = route.params;   // receive data
+  const {addToCart} =useContext(CartContext)
 
+
+  const handlecart = (product) => {
+    addToCart(product);
+    alert(`${product.title} added to cart!`);
+  };
   return (
     <View style={styles.container}>
 
@@ -20,7 +27,7 @@ function Details({ route, navigation }) {
         ><Text style={styles.btntext}>Back</Text></TouchableOpacity>
 
         <TouchableOpacity onPress={()=>navigation.navigate("Buy",{product:product})}><Text style={styles.btntext}>Buy</Text></TouchableOpacity>
-        <TouchableOpacity><Text style={styles.btntext}>Add to Card</Text></TouchableOpacity>
+        <TouchableOpacity onPress={()=>handlecart(product)}><Text style={styles.btntext} >Add to Card</Text></TouchableOpacity>
 
       </View>
 
