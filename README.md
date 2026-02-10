@@ -80,13 +80,13 @@ This is a **React Native E-Commerce App** that allows users to browse, buy cloth
 ## App Preview
 
 ### Home Screen
-![Home Screen](./assets/images/screenshots/home.png)
+![Home Screen](./assets/home.png)
 
 ### Details Screen
-![Details Screen](./assets/images/screenshots/details.png)
+![Details Screen](./assets/details.png)
 
 ### Cart Screen
-![Cart Screen](./assets/images/screenshots/cart.png)
+![Cart Screen](./assets/cart.png)
 
 ### Buy Screen
-![Buy Screen](./assets/images/screenshots/buy.png)
+![Buy Screen](./assets/buy.png)
