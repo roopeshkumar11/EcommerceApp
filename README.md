@@ -28,6 +28,21 @@ This is a **React Native E-Commerce App** that allows users to browse, buy cloth
 
 ---
 
+## Folder Structure
+
+
+
+- /src
+-  /screens
+  -  Home.js       # Main screen displaying all products
+  -  Details.js    # Product details screen
+  -  Cart.js       # Shopping cart screen
+  -  Buy.js        # Checkout and purchase screen
+  - Settings.js   # App settings screen
+- /components
+    - ProductCard.js # Reusable component for displaying products
+  - /assets
+    /images        # Images used in the app (products, icons, etc.)
 
 
 ## Getting Started
@@ -36,14 +51,14 @@ This is a **React Native E-Commerce App** that allows users to browse, buy cloth
 
 ### Step 1: Install Dependencies
 
-```sh
+
 # Using npm
-npm install
+- npm install
 
 # OR using Yarn
-yarn install
+- yarn install
 
-```
+
 ## Run the App for  Android
  # Using npm
 - npm run android
@@ -62,18 +77,16 @@ yarn install
 - yarn ios
 
 
-## Folder Structure
+## App Preview
 
+### Home Screen
+![Home Screen](./assets/images/screenshots/home.png)
 
+### Details Screen
+![Details Screen](./assets/images/screenshots/details.png)
 
-- /src
--  /screens
-  -  Home.js       # Main screen displaying all products
-  -  Details.js    # Product details screen
-  -  Cart.js       # Shopping cart screen
-  -  Buy.js        # Checkout and purchase screen
-  - Settings.js   # App settings screen
-- /components
-    - ProductCard.js # Reusable component for displaying products
-  - /assets
-    /images        # Images used in the app (products, icons, etc.)
+### Cart Screen
+![Cart Screen](./assets/images/screenshots/cart.png)
+
+### Buy Screen
+![Buy Screen](./assets/images/screenshots/buy.png)
